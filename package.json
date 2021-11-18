@@ -7,7 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeSecureYou/my-node-project.git"
+  },
+  "keywords": [
+    "Girls",
+    "Who",
+    "Code",
+    "website",
+    "template",
+    "node"
+  ],
   "author": "Mohit Gupta",
+  "bugs": {
+    "url": "https://github.com/WeSecureYou/my-node-project/issues"
+  },
+  "homepage": "https://github.com/WeSecureYou/my-node-project#readme",
   "dependencies": {
     "express": "^4.14.0",
     "http": "0.0.0",
