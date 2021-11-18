@@ -1,4 +1,6 @@
-if (screen.width < '768px'){
-    document.write('Not Allowed');
-    console.log(screen.width);
+if (screen.width < '768'){
+    document.getElementById("cont").style.display = "none";
+    document.getElementById("not-allowed").style.display = "flex";
+}
+else {
 }
